@@ -60,7 +60,6 @@ class _BottomNavigationBarAppState extends State<BottomNavigationBarApp> {
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.add), label: 'Hoe'),
-
           BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Search'),
           BottomNavigationBarItem(
               icon: Icon(Icons.supervised_user_circle_rounded), label: 'Profile'),
@@ -71,8 +70,6 @@ class _BottomNavigationBarAppState extends State<BottomNavigationBarApp> {
         iconSize: 16,
         selectedFontSize: 18,
         unselectedFontSize: 10,
-
-
       ),
     );
   }
